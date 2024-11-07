@@ -1,11 +1,9 @@
 /* Define the grid dimensions and borders */
 .grid {
-    align-self: center;
+    
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: wrap;
     border: 1px solid black;
-    width: 525px; /*width * 0.05*/
-    height: 525px;
   } 
 
   /* Define the grid cell styles */
