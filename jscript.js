@@ -11,3 +11,14 @@ for (let i = 0; i < 16; i++) {
     grid.appendChild(cell);
   }
 }
+
+
+// hover over function
+const cell = document.querySelectorAll(".cell")
+
+cell.forEach(function(myBox) {
+  //const color = window.getComputedStyle(myBox).getPropertyValue('background-color'); //grabs the css background color
+  myBox.addEventListener('mouseover', (e) => { 
+    e.target.style.backgroundColor = 'black';
+});
+});
